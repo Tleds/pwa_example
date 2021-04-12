@@ -4,15 +4,13 @@ Nome da aplicação: mestre_zaza_pwa
 A aplicação é bem simples e tem como objetivo a visualização de programas de treino no celular do cliente
 que podem ser contratados também atravéz so website mestrezaza.com.br.
 
-Página inicial: É a página de entrada da aplicação, nela o usuário faz a autenticação para ter acesso ao res
-tante do sistema.
+Página inicial: É a página de entrada da aplicação, nela o usuário faz a autenticação para ter acesso ao restante do sistema.
     ![Alt text](/public/images/home_print.png?raw=true "Entrar")
 
 Página de registro: É a página onde o usuário se cadastra para acessar a plataforma.
     ![Alt text](/public/images/register_print.png?raw=true "Inscrever-se")
 
-Pagina home: É a página inicial depois que o usuário se autentica, nela você visualiza os últimos vídeos postados
-do mestre zaza.
+Pagina home: É a página inicial depois que o usuário se autentica, nela você visualiza os últimos vídeos postados do mestre zaza.
     ![Alt text](/public/images/home_ini_print.png?raw=true "Inicial")
 
 Página de notificação: É a página que o usuário visualiza todas as notificações da conta dele.
