@@ -16,6 +16,7 @@
       E-mail:
     </label>
     <input 
+      id="email"
       type="email"
     />
     <label
@@ -23,13 +24,17 @@
     >
       Senha:
     </label>
-    <input type="password" />
+    <input 
+      id="password"
+      type="password" 
+    />
     <span class="forgotPasswordText">Esqueceu a senha? <a href="./pages/forgot_password/forgot_password.html" class="forgotPasswordLink">Clique aqui!</a></span>
-    <button class="loginButton">Entrar</button>
+    <button class="loginButton" onclick="handleLogin()">Entrar</button>
     <button class="loginButtonGoogle">Entrar com Google</button>
     <button class="loginButtonFacebook">Entrar com Facebook</button>
   </div>
     <script src="./js/pwa.js"></script>
     <script src="./js/status.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
