@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="manifest" href="./js/pwa.webmanifest">
+    <link rel="apple-touch-icon" href="./images/apple-touch.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#764ABC"/>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+    <img class="logo" src="./images/logo_branca.png" alt="Logo"/>
+    <span class="registerText">Ainda não tem uma conta? <a class="registerLink" href='./pages/register/register.html'>Inscreva-se</a></span>
+    <label 
+      class="emailLabel"
+    >
+      E-mail:
+    </label>
+    <input 
+      type="email"
+    />
+    <label
+      class="passwordLabel"
+    >
+      Senha:
+    </label>
+    <input type="password" />
+    <span class="forgotPasswordText">Esqueceu a senha? <a href="./pages/forgot_password/forgot_password.html" class="forgotPasswordLink">Clique aqui!</a></span>
+    <button class="loginButton">Entrar</button>
+    <button class="loginButtonGoogle">Entrar com Google</button>
+    <button class="loginButtonFacebook">Entrar com Facebook</button>
+  </div>
+    <script src="./js/pwa.js"></script>
+    <script src="./js/status.js"></script>
+  </body>
+</html>
